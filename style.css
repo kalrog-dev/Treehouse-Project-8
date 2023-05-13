@@ -59,6 +59,7 @@ h1 {
     background-color: #fff;
     border: 1px solid #e1e1e1;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .avatar {
