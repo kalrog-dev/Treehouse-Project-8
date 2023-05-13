@@ -63,7 +63,7 @@ h1 {
 }
 
 .avatar {
-    height: 85%;
+    height: 80%;
     border-radius: 50%;
 }
 
@@ -119,19 +119,15 @@ hr {
 }
 
 @media (min-width: 520px) {
-    body {
-        font-size: 14px;
-    }
-
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
         gap: 1.5em;
     }
 
     .card {
-        gap: 2em;
-        padding: 2em;
+        gap: 1.5em;
+        padding: 1.5em;
         margin-bottom: 0;
         height: 180px;
     }
